@@ -1,27 +1,13 @@
 {
   "name": "network-metrics-api",
   "version": "1.0.0",
-  "description": "A Node.js API to measure network metrics like ping, jitter, packet loss, and bandwidth.",
+  "description": "Express API to measure network metrics with HTB bandwidth control",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "network",
-    "metrics",
-    "ping",
-    "jitter",
-    "packet-loss",
-    "bandwidth"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "express": "^4.18.2",
+    "tc-wrapper": "^1.0.0"
   }
 }
